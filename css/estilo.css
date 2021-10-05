@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+.baner{
+    background-image: url(/imagens/bg-3.jpg);
+    height: 500px;
+    margin: 0;
+    background-position: right center;
+    background-size: cover;
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    
+}
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 4px black;
+}
+.hero-content p{
+    background-color: rgba(0,0,0,.8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+
+}
+.baner nav ul{
+    text-align: right;
+}
+
+.lista{
+    display: inline-block;
+    list-style: none;
+    
+    border: 1px solid white;
+}
+/*rgba o valor transparente de "a" varia de 0 a 1*/
+.baner nav a{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+.baner nav ul li:hover{
+    background-color: rgba(0,0,0,.4);
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+    
+}
+.card{
+    width: 32%;
+    float: left;
+    
+    box-sizing: border-box;
+    
+}
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card p {
+    background-color: rgba(58, 58, 58, 0.753);
+    color: white;
+    margin: 0;
+    padding: 12px;
+    
+}
+
+header h2{
+    background-color: rgb(218, 218, 218);
+    border-bottom: 3px solid rgb(160, 160, 160);
+}
+/*line-height para centralizar na vertical com o mesmo valor do height do elemento*/
+footer{
+    background-color: grey;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 13px;
+
+}
